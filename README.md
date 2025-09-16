@@ -23,6 +23,7 @@ La aplicación implementa un menú de navegación tipo hamburguesa que permite a
 
 ## Estructura del Proyecto
 
+```bash
 src/
 ├── app/
 │ ├── components/
@@ -30,7 +31,7 @@ src/
 │ │ ├── calculator/ # Ejercicio 2 - Calculadora
 │ │ └── title/ # Ejercicio 3 - Cambio de Título
 │ └── app.component.ts # Menú principal y navegación
-
+```
 
 ## Instalación y Ejecución
 
