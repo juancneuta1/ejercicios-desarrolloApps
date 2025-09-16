@@ -1,27 +1,50 @@
-# EjerciciosDesarrolloApps
+# Proyecto Angular 18 - Ejercicios de Clase
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+Este proyecto corresponde a una práctica de desarrollo utilizando **Angular v18**.  
+La aplicación implementa un menú de navegación tipo hamburguesa que permite acceder a tres ejercicios básicos de programación con Angular.
 
-## Development server
+## Contenido
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Ejercicio 1 - Manipulación del DOM**  
+  Permite ingresar texto en un campo de entrada, almacenarlo en una lista y eliminar los elementos.  
 
-## Code scaffolding
+- **Ejercicio 2 - Calculadora Básica**  
+  Realiza operaciones de suma, resta, multiplicación y división entre dos números ingresados por el usuario.  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Ejercicio 3 - Cambio de Títulos**  
+  Permite modificar el título mostrado en pantalla en tiempo real al escribir un nuevo texto.  
 
-## Build
+## Tecnologías Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular 18  
+- TypeScript  
+- HTML5  
+- CSS3  
 
-## Running unit tests
+## Estructura del Proyecto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+src/
+├── app/
+│ ├── components/
+│ │ ├── dom/ # Ejercicio 1 - Manipulación del DOM
+│ │ ├── calculator/ # Ejercicio 2 - Calculadora
+│ │ └── title/ # Ejercicio 3 - Cambio de Título
+│ └── app.component.ts # Menú principal y navegación
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Instalación y Ejecución
 
-## Further help
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/juancneuta1/ejercicios-desarrolloApps.git
+   cd ejercicios-desarrolloApps
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Instalar dependencias:
+
+1. npm install
+
+## Ejecutar el servidor de desarrollo:
+
+1. ng serve
+
+
